@@ -162,3 +162,4 @@ function MarcarPonto() {
     pontosDoOponente += 1;
   }
 }
+
