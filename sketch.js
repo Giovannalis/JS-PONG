@@ -31,7 +31,6 @@ let raquetada;
 let ponto;
 let trilha;
 
-
 function preload() {
   trilha = loadSound("trilha.mp3");
   ponto = loadSound("ponto.mp3");
@@ -79,7 +78,9 @@ function MovimentaBolinha() {
 
 function bolinhaNaoFicaPresa(){
     if (xBolinha - raio > 0){
-      xBolinha = 20;      
+      xBolinha = 20
+      
+      
     }
 }
 
@@ -161,4 +162,3 @@ function MarcarPonto() {
     pontosDoOponente += 1;
   }
 }
-
